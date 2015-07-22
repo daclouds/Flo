@@ -12,6 +12,8 @@
 		ED30914A1B5F75D400681FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3091481B5F75D400681FDE /* Main.storyboard */; };
 		ED30914C1B5F75D400681FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED30914B1B5F75D400681FDE /* Assets.xcassets */; };
 		ED30914F1B5F75D400681FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED30914D1B5F75D400681FDE /* LaunchScreen.storyboard */; };
+		ED3091571B5F75F200681FDE /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3091561B5F75F200681FDE /* PushButtonView.swift */; };
+		ED3091591B5F8EB800681FDE /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3091581B5F8EB800681FDE /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ED30914B1B5F75D400681FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED30914E1B5F75D400681FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED3091501B5F75D400681FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3091561B5F75F200681FDE /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		ED3091581B5F8EB800681FDE /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				ED30914B1B5F75D400681FDE /* Assets.xcassets */,
 				ED30914D1B5F75D400681FDE /* LaunchScreen.storyboard */,
 				ED3091501B5F75D400681FDE /* Info.plist */,
+				ED3091561B5F75F200681FDE /* PushButtonView.swift */,
+				ED3091581B5F8EB800681FDE /* CounterView.swift */,
 			);
 			path = Flo;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3091471B5F75D400681FDE /* ViewController.swift in Sources */,
+				ED3091571B5F75F200681FDE /* PushButtonView.swift in Sources */,
 				ED3091451B5F75D400681FDE /* AppDelegate.swift in Sources */,
+				ED3091591B5F8EB800681FDE /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
